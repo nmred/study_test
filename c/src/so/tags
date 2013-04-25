@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+DATETYPE	datetime.h	/^} DATETYPE;$/;"	t	typeref:struct:__anon1
+TIMETYPE	datetime.h	/^} TIMETYPE;$/;"	t	typeref:struct:__anon2
+__DATETIME_H	datetime.h	5;"	d
+day	datetime.h	/^	int day;	$/;"	m	struct:__anon1
+getdata	getdate.c	/^int getdata(DATETYPE *d)$/;"	f
+getdate	datetime.h	/^int (*getdate)(DATETYPE *d);$/;"	v
+gettime	datetime.h	/^int (*gettime)(TIMETYPE *t);$/;"	v
+hour	datetime.h	/^	char hour;$/;"	m	struct:__anon2
+min	datetime.h	/^	char min;$/;"	m	struct:__anon2
+mon	datetime.h	/^	int mon;$/;"	m	struct:__anon1
+sec	datetime.h	/^	char sec;$/;"	m	struct:__anon2
+year	datetime.h	/^	int year;$/;"	m	struct:__anon1
