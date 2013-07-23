@@ -46,9 +46,9 @@ class Async extends Thread {
 /* here's us calling file_get_contents in a thread of it's own */
 $future = Async::call("file_get_contents", array("http://www.php.net"));
 /* here's us counting the bytes out, note, __toString() magic joined so no need to join explicitly */
-printf("Got %d bytes from php.net\n", strlen($future));
+printf("Got %d bytes from php.net\n", strlen((string)$future));
 /* you can reference again as a string because you cached the result, YOU CANNOT JOIN TWICE */
-printf("First 16 chars: %s\n", substr($future, 0, 16));
+printf("First 16 chars: %s\n", substr((string)$future, 0, 16));
 /* if you have no __toString(): */
 /* $response = $future->join(); */
 /* you could also not use a reference to the thread, 
