@@ -3,7 +3,7 @@
 
 int main()
 {
-	unsigned int pid, ppid, uid, euid, gid, egid;
+	pid_t pid, ppid, uid, euid, gid, egid;
 	
 	pid = getpid();
 	ppid = getppid();
