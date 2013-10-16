@@ -1,0 +1,17 @@
+exec.c
+exec.c.o
+exit.c
+exit.c.o
+fork_1.c
+fork_1.c.o
+fork.c
+fork.c.o
+pid.c
+pid.c.o
+setuid.c
+setuid.c.o
+system.c
+system.c.o
+temp.txt
+vfork.c
+vfork.c.o
