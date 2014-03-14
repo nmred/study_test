@@ -10,20 +10,16 @@ class A {
 
 class B extends Object{
 	private String name = new String("dsds");
-	public int HashCode() {
-		return 2;
+	public int hashCode() {
+		return 12;
 	}
-	public String toString() {
-		return this.hashCode() + "";
-	}
-	
 }
 class C {
 	public boolean equals(Object obj) {
 		return true;
 	}
 	
-	public int HashCode() {
+	public int hashCode() {
 		return 2;
 	}
 }
@@ -36,7 +32,7 @@ public class HashSetTest {
 		booksHashSet.add(new B());
 		booksHashSet.add(new C());
 		booksHashSet.add(new C());
-		System.out.println(new B().HashCode());
+	
 		System.out.println(booksHashSet);
 	}
 }
