@@ -8,7 +8,6 @@ public class NullInHashMap {
 		hm1.put(null, null);
 		hm1.put(null, null);
 		hm1.put("a", null);
-		
 		System.out.println(hm1);
 	}
 }
