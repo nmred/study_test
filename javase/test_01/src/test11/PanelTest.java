@@ -1,11 +1,10 @@
 package test11;
 
 import java.awt.Button;
-import java.awt.Font;
 import java.awt.Frame;
 import java.awt.Panel;
 import java.awt.TextField;
-import java.awt.event.TextEvent;
+
 
 public class PanelTest {
 	public static void main(String[] args) {
