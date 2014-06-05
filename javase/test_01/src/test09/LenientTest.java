@@ -5,7 +5,7 @@ import java.util.Calendar;
 public class LenientTest {
 	public static void main(String[] args) {
 		Calendar calendar = Calendar.getInstance();
-		calendar.set(calendar.MONTH, 13);
+		calendar.set(Calendar.MONTH, 13);
 		
 		//calendar.setLenient(false);
 		
